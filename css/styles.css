@@ -306,7 +306,7 @@ section {
 }
 
 .goals-symbols-icon {
-    z-index: 999;
+    z-index: 1;
     position: absolute;
     top: 24px;
     left: 100px;
@@ -491,10 +491,14 @@ section {
     background: #fcfcfc;
     padding: 72px 24px 24px 24px;
     border-radius: 4px;
+    z-index: 2;
 }
 
 .modal-form {
     position: absolute;
+    display: flex;
+    flex-direction: column;
+    z-index: 3;
 }
 
 .form-title {
