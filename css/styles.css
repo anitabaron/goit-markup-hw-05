@@ -306,7 +306,6 @@ section {
 }
 
 .goals-symbols-icon {
-    z-index: 1;
     position: absolute;
     top: 24px;
     left: 100px;
@@ -437,6 +436,10 @@ section {
     background-color: #31d0aa;
 }
 
+.sub {
+    margin-left: 80px;
+}
+
 /* --- details icons --- */
 
 .icon-circle {
@@ -463,10 +466,16 @@ section {
 
 .modal-btn {
     font-family: inherit;
-    font-size: inherit;
-    color: currentColor;
-    margin-left: 0;
-    padding: 3px 10px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    text-align: center;
+    color: white;
+    background-color: #4d5ae5;
+    margin-left: 24px;
+    padding: 8px 24px;
+    border: none;
     /* transition: 250ms cubic-bezier(0.4, 0, 0.2, 1); */
 }
 
@@ -476,7 +485,7 @@ section {
     height: 100%;
     left: 0;
     top: 0;
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: rgba(46, 47, 66, 0.4);
 }
 
 .modal {
@@ -491,14 +500,12 @@ section {
     background: #fcfcfc;
     padding: 72px 24px 24px 24px;
     border-radius: 4px;
-    z-index: 2;
 }
 
 .modal-form {
     position: absolute;
     display: flex;
     flex-direction: column;
-    z-index: 3;
 }
 
 .form-title {
