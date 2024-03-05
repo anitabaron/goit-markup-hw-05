@@ -707,15 +707,20 @@
                     </ul>
                 </div>
                 <div class="sub">
-                   <p class="sm-footer-title subs-gap">Subscribe</p> 
-                   <input type="email" class="subs-gap" placeholder="E-mail"/>
+                   <p class="sm-footer-title">Subscribe</p> 
+                   <input type="email" class="input-dark" placeholder="E-mail"/>
                 </div>
-                <div>
+                <div class="sub-btn-field">
+                    <p class="vis-hidden">Subscribe</p> 
                     <button class="modal-btn" type="button" data-modal-open>
-                    Subscribe
+                    Subscribe <svg width="24" height="20" class="send-icn"
+                    viewBox="0 0 24 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M24 0L0 11.25L7.66994 13.6172L19.5 4.375L10.5017 14.4913L10.509 14.4936L10.5 14.4913V20L14.8013 15.8183L20.2501 17.5L24 0Z" fill="white" />
+</svg>
                 </div>
             </div>
         </footer>
+
         <!--Modal-->
         <div class="backdrop is-hidden" data-modal>
             <div class="modal">
@@ -815,8 +820,11 @@
                         </textarea>
                         </div>
                     </label>
-                    <input type="checkbox" class="checkbox"/>I accept the terms and conditions
-                    of the <a href="">Privacy Policy</a>
+                    <div class="accept">
+                        <input type="checkbox" class="checkbox"/>
+                        <p class="field-descr">I accept the terms and conditions
+                        of the <a href="">Privacy Policy</a></p>
+                    </div>
                     <button class="send-btn" type="submit">Send</button>
                 </form>
             </div>
