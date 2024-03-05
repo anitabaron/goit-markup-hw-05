@@ -506,12 +506,44 @@ section {
     position: absolute;
     display: flex;
     flex-direction: column;
+    gap: 8px;
 }
 
 .form-title {
     text-align: center;
     color: #2e2f42;
     font-weight: 500;
+}
+
+.form-field {
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    border-radius: 4px;
+    width: 360px;
+    height: 40px;
+    /* padding: 0; */
+}
+
+.form-field:focus-within {
+    border-color: #4d5ae5;
+}
+
+.field-descr {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.16667;
+    letter-spacing: 0.04em;
+    color: #8e8f99;
+    padding: 0;
+}
+
+.classic-field,
+.comment-section {
+    border: none;
+}
+
+.checkbox {
+    display: inline;
 }
 
 .send-btn {
@@ -525,6 +557,12 @@ section {
     width: 169px;
     height: 56px;
     border: none;
+    margin: 0 auto;
+    margin-bottom: 0px;
+}
+
+.comm-area {
+    min-height: 120px;
 }
 
 .close-btn {
@@ -539,8 +577,24 @@ section {
     border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
-.is-hidden {
+.x-btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.icon-form {
+    margin: 11px 0 11px 16px;
+    position: absolute;
+}
+
+.classic-field:focus-within {
+    border: none;
+}
+
+/* .is-hidden {
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
-}
+} */
