@@ -569,10 +569,14 @@ section {
 }
 
 .form-field {
-    display: flex;
+    /* display: flex;
     align-content: center;
     align-items: center;
-    margin-bottom: 8px;
+    margin-bottom: 8px; */
+}
+
+.last {
+    margin-bottom: 16px;
 }
 
 .field {
