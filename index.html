@@ -708,12 +708,13 @@
                 <div class="sub">
                     <p class="sm-footer-title">Subscribe</p>
                     <form class="sub-form">
-                        <label for id="email">
+                        <label for id="email" class="label-email">
                             <input
                                 type="email"
                                 class="input-dark"
                                 placeholder="E-mail"
                                 id="email"
+                                name="email"
                                 pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$"
                                 required
                             />
@@ -736,15 +737,15 @@
         <!--Modal-->
         <div class="backdrop is-open">
             <div class="modal">
+                <p class="form-title">
+                    Leave your contacts and we will call you back
+                </p>
                 <button type="button" class="close-btn">
                     <svg class="icon-form-close" width="8" height="8">
                         <use href="./images/icons.svg#icon-close"></use>
                     </svg>
                 </button>
                 <form class="modal-form">
-                    <p class="form-title">
-                        Leave your contacts and we will call you back
-                    </p>
                     <label for="username" class="field-descr"
                         >Name
                         <div class="form-field">

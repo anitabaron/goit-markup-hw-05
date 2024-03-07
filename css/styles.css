@@ -438,7 +438,6 @@ section {
 }
 
 .input-dark {
-    background-color: #2e2f42;
     padding-left: 16px;
     border: 1px solid #fff;
     border-radius: 4px;
@@ -447,12 +446,14 @@ section {
     color: #fff;
     font-family: "Roboto", sans-serif;
     font-weight: 400;
-    font-size: 18px;
-    line-height: 1.16667;
+    font-size: 12px;
+    line-height: 2;
     letter-spacing: 0.04em;
     align-content: center;
     align-items: baseline;
     outline: none;
+    background-color: transparent;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 .input-dark::placeholder {
@@ -465,6 +466,7 @@ section {
 }
 .sub-form {
     display: flex;
+    gap: 24px;
 }
 
 .sub-btn {
@@ -485,6 +487,7 @@ section {
     cursor: pointer;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .icon-form-footer {
