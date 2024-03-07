@@ -747,20 +747,20 @@
                 </p>
                 <form class="modal-form">
                     <div class="form-field">
-                        <label for="username" class="field-descr" name="name"
+                        <label for="user-name" class="field-descr" name="name"
                             >Name
                             <div class="field">
+                                <input
+                                    type="name"
+                                    name="user-name"
+                                    id="user-name"
+                                    class="classic-field"
+                                />
                                 <svg class="icon-form" width="18" height="18">
                                     <use
                                         href="./images/icons.svg#icon-person"
                                     ></use>
                                 </svg>
-                                <input
-                                    type="name"
-                                    name="username"
-                                    id="username"
-                                    class="classic-field"
-                                />
                             </div>
                         </label>
                     </div>
@@ -768,11 +768,6 @@
                         <label for="phone" class="field-descr" name="phone"
                             >Phone
                             <div class="field">
-                                <svg class="icon-form" width="18" height="24">
-                                    <use
-                                        href="./images/icons.svg#icon-phone"
-                                    ></use>
-                                </svg>
                                 <input
                                     type="tel"
                                     name="phone"
@@ -780,6 +775,11 @@
                                     class="classic-field"
                                     pattern="^\d+$"
                                 />
+                                <svg class="icon-form" width="18" height="24">
+                                    <use
+                                        href="./images/icons.svg#icon-phone"
+                                    ></use>
+                                </svg>
                             </div>
                         </label>
                     </div>
@@ -787,11 +787,6 @@
                         <label for="email" class="field-descr" name="mail"
                             >Email
                             <div class="field">
-                                <svg class="icon-form" width="18" height="24">
-                                    <use
-                                        href="./images/icons.svg#icon-email"
-                                    ></use>
-                                </svg>
                                 <input
                                     type="email"
                                     id="email"
@@ -799,6 +794,11 @@
                                     pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$"
                                     required
                                 />
+                                <svg class="icon-form" width="18" height="24">
+                                    <use
+                                        href="./images/icons.svg#icon-email"
+                                    ></use>
+                                </svg>
                             </div>
                         </label>
                     </div>
