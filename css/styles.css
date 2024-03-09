@@ -756,9 +756,10 @@ section {
     cursor: pointer;
 }
 
-.check:checked .privacy-icon,
-.check:focus .privacy-icon,
-input[type="checkbox"]:checked + .privacy-icon {
+/* .check:checked .privacy-icon,
+.check:focus .privacy-icon, */
+
+.check:checked + .field-descr span {
     background-color: #404bbf;
     border: none;
     fill: #f4f4fd;
