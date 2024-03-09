@@ -751,6 +751,16 @@ section {
     fill: transparent;
 }
 
+.visually-hidden:checked .privacy {
+    background-color: #404bbf;
+    border: none;
+    fill: #f4f4fd;
+}
+
+.privacy-link {
+    color: #4d5ae5;
+}
+
 /* .is-open {
     opacity: 0;
     visibility: hidden;
