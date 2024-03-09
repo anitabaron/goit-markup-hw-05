@@ -636,7 +636,6 @@ section {
     letter-spacing: 0.04em;
     outline: transparent;
     padding: 8px 16px;
-
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 4px;
     width: 100%;
@@ -651,18 +650,18 @@ section {
     border-color: #4d5ae5;
 }
 
-.comment-section::placeholder {
+/* .comment-section::placeholder {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 12px;
     line-height: 1.7;
     letter-spacing: 0.04em;
     color: rgba(46, 47, 66, 0.4);
-}
+} */
 
 .accept {
     display: flex;
-    /* margin-bottom: 24px; */
+    margin-bottom: 8px;
 }
 
 .checkbox {
