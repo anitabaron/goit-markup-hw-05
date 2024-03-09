@@ -756,8 +756,9 @@ section {
     cursor: pointer;
 }
 
-.check:checked .privacy,
-.check:focus .privacy {
+.check:checked .privacy-icon,
+.check:focus .privacy-icon,
+input[type="checkbox"]:checked + .privacy-icon {
     background-color: #404bbf;
     border: none;
     fill: #f4f4fd;
