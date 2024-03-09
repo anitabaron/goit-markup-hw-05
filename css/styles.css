@@ -756,7 +756,8 @@ section {
     cursor: pointer;
 }
 
-.check:checked .privacy {
+.check:checked .privacy,
+.check:focus .privacy {
     background-color: #404bbf;
     border: none;
     fill: #f4f4fd;
