@@ -462,7 +462,7 @@ section {
 }
 
 .sub {
-    margin-left: 80px;
+    margin-left: auto;
 }
 .sub-form {
     display: flex;
@@ -477,7 +477,6 @@ section {
     letter-spacing: 0.04em;
     color: white;
     background-color: #4d5ae5;
-    margin-left: 24px;
     padding: 8px 24px;
     border: none;
     border-radius: 4px;
@@ -529,6 +528,15 @@ section {
     background-color: rgba(46, 47, 66, 0.4);
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
         visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+}
+
+.backdrop.is-open {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
 }
 
 .modal {
@@ -554,7 +562,6 @@ section {
 .modal-form {
     display: flex;
     flex-direction: column;
-    gap: 8px;
 }
 
 .form-title {
@@ -661,7 +668,7 @@ section {
 
 .accept {
     display: flex;
-    margin-bottom: 8px;
+    margin-bottom: 24px;
 }
 
 .checkbox {
@@ -760,9 +767,3 @@ section {
 .privacy-link {
     color: #4d5ae5;
 }
-
-/* .is-open {
-    opacity: 0;
-    visibility: hidden;
-    pointer-events: none;
-} */
